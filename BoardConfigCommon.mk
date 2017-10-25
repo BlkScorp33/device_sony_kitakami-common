@@ -136,7 +136,7 @@ BOARD_PROVIDES_LIBRIL := true
 TARGET_RIL_VARIANT := caf
 
 # SELinux
-include device/qcom/sepolicy/sepolicy.mk
+#include device/gzosp/sepolicy/common/sepolicy.mk
 
-BOARD_SEPOLICY_DIRS += \
-    $(COMMON_PATH)/sepolicy
+#BOARD_SEPOLICY_DIRS += \
+#    $(COMMON_PATH)/sepolicy
